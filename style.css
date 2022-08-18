@@ -10,16 +10,16 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-background: #091921;
+background: #fff;
 }
 .clock
 {
-width: 350px;
-height: 350px;
+width: 450px;
+height: 450px;
 display: flex;
 justify-content: center;
 align-items: center;
-background: url(clock.png);
+background: url(./Assets/clock.png);
 background-size: cover;
 border: 4px solid #091921;
 border-radius: 50%;
@@ -83,7 +83,7 @@ content: '';
 position: absolute;
 width: 4px;
 height: 90px;
-background: #fff;
+background: #333;
 z-index: 11;
 border-radius: 6px 6px 0 0;
 }
@@ -93,7 +93,7 @@ content: '';
 position: absolute;
 width: 2px;
 height: 150px;
-background: #fff;
+background: lightblue;
 z-index: 12;
 border-radius: 6px 6px 0 0;
 }
