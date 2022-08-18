@@ -47,12 +47,12 @@ position: absolute;
 .clock .hour, .hr
 {
 width: 160px;
-height: 160px;
+height: 200px;
 }
 .clock .min, .mn
 {
 width: 190px;
-height: 190px;
+height: 280px;
 }
 .clock .sec, .sc
 {
@@ -72,7 +72,7 @@ border-radius: 50%;
 content: '';
 position: absolute;
 width: 8px;
-height: 80px;
+height: 100px;
 background: #ff105e;
 z-index: 10;
 border-radius: 6px 6px 0 0;
@@ -82,7 +82,7 @@ border-radius: 6px 6px 0 0;
 content: '';
 position: absolute;
 width: 4px;
-height: 90px;
+height: 135px;
 background: yellow;
 z-index: 11;
 border-radius: 6px 6px 0 0;
